@@ -1,0 +1,56 @@
+.container{
+  background: rgb(225, 219, 219);
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 2px;
+  height: auto;
+  padding-bottom: 50px;
+  position: relative;
+  box-shadow: 2px 1px 0.3cm black;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.about {
+    padding-left: 20px;
+}
+.tittle {
+    padding-left: 20px;
+}
+.list .task {
+    height:30px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    margin-left: 0px;
+}
+.list div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.inner button{
+    border: none;
+    background: transparent;
+    
+}
+.inner button:hover{
+    background-color: rgb(159, 153, 153);
+}
+.writing{
+    position:absolute;
+    left: 600px;
+    top: 60px;
+    border: 1px solid #fff;
+}
+.writing input{
+    height: 55px;
+    font-size: 40px;
+    /* width: 500x; */
+    border: 1px solid white;
+    outline: none;
+}
+.none{
+    display: none;
+}
